@@ -1,0 +1,252 @@
+#leftnav {
+display: block;
+  width: 300px;
+  margin-left: 0px;
+  font-size: 10px;
+}
+#rightnav {
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0;
+  float: right;
+  vertical-align: middle;
+  margin-top: -30px;
+
+}
+p {
+  color:   #a6a6a6;
+
+}
+.maintext {
+
+    font-size: 30px;
+    margin-bottom: 0;
+
+}
+.maintext p {
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+}
+.maintext h1 {
+  text-align: center;
+  color: white;
+  font-family: serif;
+  font-weight: 400;
+  margin: 0px;
+}
+#topthird {
+  background-image: url("./header.jpg");
+  background-size: cover;
+  padding: 20px 50px 50px 50px;
+  text-align: center;
+}
+#content h2 {
+  display: inline-block;
+  width: 520px;
+  color: #3366ff;
+}
+aside {
+  image-orientation: 30px;
+}
+aside img {
+  height: 30px;
+}
+#content {
+  display: inline-block;
+  word-wrap: break-word;
+  height: 500px;
+  width: 400px;
+  padding-top: 10px;
+}
+#content a {
+  font-size: 30px;
+  color: #3366ff;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  border-left: solid;
+  border-color: grey;
+}
+#commentreadshare {
+  display: flex;
+}
+#commentreadshare .comment {
+  background-color: grey;
+  margin-right: 3px;
+  margin-top: 0px;
+}
+#commentreadshare .upload {
+  background-color: grey;
+  margin-right: 3px;
+  margin-top: 0px;
+}
+#commentreadshare .share {
+  background-color:  #0000ff;
+  margin-right: 3px;
+  margin-top: 0px;
+}
+#commentreadshare text {
+  background-color:  #d9d9d9;
+
+}
+
+
+.winterman {
+  font-size: 30px;
+  text-align: center;
+  color: #3366ff;
+}
+.winterman text {
+  font-size: 20px;
+}
+.social {
+  font-size: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.avatar {
+
+  text-align: center;
+
+
+}
+#sidebar {
+  display: inline-block;
+  text-align: justify;
+  width: 200px;
+  padding-left: 200px;
+  padding-top: 30px;
+}
+#sidebar text {
+  display: inline-block;
+
+}
+#sidebarad {
+  margin-bottom: 30px;
+}
+#sidebarad img {
+  height: 150px;
+  padding-left: 100px;
+
+}
+#sidebarad a {
+  font-size: 10px;
+  padding-left: 180px;
+}
+#sidebarhead header {
+  font-size: 14px;
+  color: #3366ff;
+  text-align: center;
+}
+#sidebarhead p {
+  font-size: 10px;
+}
+h3 {
+  border-width: thin;
+  border-top: solid;
+  border-color: grey;
+  border-width: 100%;
+
+}
+.banner {
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+
+}
+#pictures {
+  display: flex;
+  text-align: inherit;
+  width: 100%;
+
+}
+#surfer {
+  display: relative;
+  border: none;
+  background: url("./article-image-1.jpg");
+  height: 325px;
+  width: 325px;
+}
+#surfer a {
+  display: inline-block;
+  color: #3366ff;
+  font-weight: bolder;
+  padding-top: 270px;
+}
+#surfer:hover{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+#beer {
+  display: relative;
+  border: none;
+  background-image: url("./article-image-2.jpg");
+  height: 325px;
+  width: 325px;
+
+}
+#beer a {
+  display: inline-block;
+  color: #3366ff;
+  font-weight: bolder;
+  padding-top: 270px;
+}
+#beer:hover{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+#hangover{
+  display: relative;
+  background-image: url("./article-image-3.jpg");
+  height: 325px;
+  width: 325px;
+}
+#hangover a {
+  display: inline-block;
+  color: #3366ff;
+  font-weight: bolder;
+  padding-top: 260px;
+}
+#hangover:hover{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+#partyliquor {
+  display: relative;
+  background-image: url("article-image-4.jpg");
+  height: 325px;
+  width: 325px;
+}
+#partyliquor a {
+  display: inline-block;
+  color: #3366ff;
+  font-weight: bolder;
+  padding-top: 260px;
+}
+#partyliquor:hover{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+#footer {
+  color: white;
+  background-color: #11415E;
+  height: 65px
+}
+.navs {
+  color: white;
+  display: inline-flex;
+  width: 400px;
+  padding-left: 40px;
+  list-style: none;
+}
+.navs a {
+  padding: 0px 5px;
+  font-size: 10px;
+}
+#footer img {
+  height: 40px;
+  padding-left: 20px;
+  padding-top: 6px;
+}
