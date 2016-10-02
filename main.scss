@@ -1,0 +1,275 @@
+/*HEADER*/
+* {
+  font-family: "Open Sans 400";
+}
+
+body {
+  margin: 0;
+}
+
+header h1,header h4, header li {
+  text-transform: uppercase;
+}
+
+header p, header h4, header li {
+  color: rgba(0,0,0,.5);
+}
+
+header {
+  background-image: url("./assets/header.jpg");
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 100px;
+}
+
+nav {
+  padding: 10px 100px 0 100px;
+}
+
+#logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+header h4 {
+  display: inline;
+  margin: auto 0;
+  vertical-align: middle;
+}
+
+header ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  float: right;
+  vertical-align: middle;
+  margin-top: 0;
+
+}
+
+header li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+header li a {
+  font-family: "Oswald";
+  font-weight: 700;
+  text-decoration: none;
+  color: rgba(0,0,0,.5);
+}
+
+.hamburger {display: none;}
+
+header h1, p {
+  text-align: center;
+}
+
+header h1 {
+  margin: 70px auto 0px auto;
+  font-size: 80px;
+  color: white;
+  text-shadow: 0px 2px 5px rgba(0,0,0,0.4);
+  font-family: "Open Sans";
+}
+
+header p {
+  margin: -5px auto 0 auto;
+}
+/*///////////////////////*/
+
+
+/*////////////////
+Main page area
+////////////////*/
+article {
+  width: 50%;
+  padding: 0 120px;
+  display: inline-block;
+}
+
+article h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #083452;
+}
+
+article img {
+  size: 10%;
+}
+
+article p {
+  text-align: left;
+}
+
+blockquote {
+  font-family: "Open Sans 400";
+  color: #106db3;
+  font-size: 30px;
+  border-left: 2px solid rgba(0,0,0,.15);
+  padding-left: 30px;
+  margin-left: 0;
+  text-transform: uppercase;
+}
+
+aside {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+aside li {
+  display: inline-block;
+  margin: auto 10px;
+}
+
+aside p {
+  text-align: left;
+}
+
+/*////////////////
+Section area
+////////////////*/
+section#popular-posts h2{
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+#image-container {
+  display: inline-flex;
+  width: 100%;
+}
+
+#image-container div {
+  width: 25%;
+  background-color: black;
+  opacity: .4;
+  max-height: 365.53px;
+}
+
+#image-container img {
+  width: 100%;
+}
+
+#image-container div:hover{
+  background-color: transparent;
+  opacity: 1;
+}
+
+
+/*/////////////////////
+Sidebar
+/////////////////////*/
+
+aside h3, aside h4 {
+  color: #106db3;
+}
+
+
+/*/////////////////////
+Popular Posts
+/////////////////////*/
+#popular-posts h2 {
+  color: #083452;
+}
+
+
+/*/////////////////////
+Footer
+/////////////////////*/
+footer {
+  text-align: center;
+  padding: 0 100px;
+  background-color: #083452;
+}
+
+footer h4, footer ul, footer li {
+  display: inline-block;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
+footer h4 {
+  margin-left: 10px;
+  color: white;
+}
+
+footer ul {
+  float: right;
+}
+
+footer li {
+  list-style-type: none;
+  border-right: 1px solid white;
+  padding: 0 5px;
+}
+
+footer li:last-child: {
+  border-right: none;
+}
+
+footer li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*/////////////////////
+@Media
+/////////////////////*/
+
+@media (max-width: 700px) {
+  header nav {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 530px) {
+  header {padding-bottom: 50px;}
+  header h1 {
+    font-size: 35px;
+    margin-top: 0;
+  }
+  header p {font-size: 12px;}
+  #main-nav {display: none;}
+  img.hamburger {
+    display: inline;
+    float: right;
+    position: relative;
+  }
+  ul.hamburger.visible {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    text-align: center;
+    margin: 0;
+  }
+
+  ul.hamburger li {
+    border: solid 1px;
+    background-color: white;
+    font-size: 10px;
+    margin: 0 5px 0 0;
+  }
+
+}
+
+/*////////
+Used hamburger nav svg made by Timothy Miller
+
+Timothy Miller
+https://creativecommons.org/licenses/by-sa/3.0/
+https://www.iconfinder.com/icons/134216/hamburger_lines_menu_icon
+///////////*/
